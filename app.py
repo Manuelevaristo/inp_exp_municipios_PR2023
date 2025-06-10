@@ -20,8 +20,8 @@ def carregar_dados():
     """
     try:
         # Tenta carregar os arquivos com codificação 'latin1'.
-        df_imp = pd.read_csv('/home/manuel-finda/Documentos/HUB de IA/projetos/filtro/data/IMP_MUN_PR_2023_limpo.csv', delimiter=';',encoding='latin1')
-        df_exp = pd.read_csv('/home/manuel-finda/Documentos/HUB de IA/projetos/filtro/data/EXP_MUN_PR_2023_limpo.csv', delimiter=';',encoding='latin1')
+        df_imp = pd.read_csv('data/IMP_MUN_PR_2023_limpo.csv', delimiter=';',encoding='latin1')
+        df_exp = pd.read_csv('data/EXP_MUN_PR_2023_limpo.csv', delimiter=';',encoding='latin1')
 
         # Converte a coluna de código do município para string para evitar problemas de formatação.
         if 'CO_MUN' in df_imp.columns:
