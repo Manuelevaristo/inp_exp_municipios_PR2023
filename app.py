@@ -7,7 +7,7 @@ st.set_page_config(
     page_title="Análise de Comércio Exterior por Município"
 )
 
-st.title("🔎 Consulta de Importações e Exportações por Município")
+st.title("🔎 Consulta de Importações e Exportações por Município-PR")
 
 # --- Função para Carregar os Dados ---
 # O decorador @st.cache_data garante que os dados sejam carregados apenas uma vez.
